@@ -1,0 +1,210 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 23.1std.0 Build 991 11/28/2023 SC Standard Edition
+# Date created = 16:54:01  September 20, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		top_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:54:01  SEPTEMBER 20, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 780
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SOURCE_FILE my_altpll.ppf
+set_global_assignment -name MIF_FILE y_rect2.mif
+set_global_assignment -name MIF_FILE y_rect1.mif
+set_global_assignment -name MIF_FILE y_rect0.mif
+set_global_assignment -name MIF_FILE x_rect2.mif
+set_global_assignment -name MIF_FILE x_rect1.mif
+set_global_assignment -name MIF_FILE x_rect0.mif
+set_global_assignment -name MIF_FILE weight2.mif
+set_global_assignment -name MIF_FILE weight1.mif
+set_global_assignment -name MIF_FILE weight0.mif
+set_global_assignment -name MIF_FILE weakThresh.mif
+set_global_assignment -name MIF_FILE weakStageNum.mif
+set_global_assignment -name MIF_FILE w_rect2.mif
+set_global_assignment -name MIF_FILE w_rect1.mif
+set_global_assignment -name MIF_FILE w_rect0.mif
+set_global_assignment -name MIF_FILE "test2-faceGrid96-320x240_greyImage_dec.mif"
+set_global_assignment -name MIF_FILE right_tree.mif
+set_global_assignment -name MIF_FILE left_tree.mif
+set_global_assignment -name MIF_FILE h_rect2.mif
+set_global_assignment -name MIF_FILE h_rect1.mif
+set_global_assignment -name MIF_FILE h_rect0.mif
+set_global_assignment -name SOURCE_FILE README.md
+set_global_assignment -name HEX_FILE y_rect2.hex
+set_global_assignment -name HEX_FILE y_rect1.hex
+set_global_assignment -name HEX_FILE y_rect0.hex
+set_global_assignment -name HEX_FILE x_rect2.hex
+set_global_assignment -name HEX_FILE x_rect1.hex
+set_global_assignment -name HEX_FILE x_rect0.hex
+set_global_assignment -name HEX_FILE weight2.hex
+set_global_assignment -name HEX_FILE weight1.hex
+set_global_assignment -name HEX_FILE weight0.hex
+set_global_assignment -name HEX_FILE weakThresh.hex
+set_global_assignment -name HEX_FILE weakStageNum.hex
+set_global_assignment -name HEX_FILE w_rect2.hex
+set_global_assignment -name HEX_FILE w_rect1.hex
+set_global_assignment -name HEX_FILE w_rect0.hex
+set_global_assignment -name HEX_FILE "test2-faceGrid96-320x240_greyImage_dec.hex"
+set_global_assignment -name HEX_FILE right_tree.hex
+set_global_assignment -name HEX_FILE left_tree.hex
+set_global_assignment -name HEX_FILE h_rect2.hex
+set_global_assignment -name HEX_FILE h_rect1.hex
+set_global_assignment -name HEX_FILE h_rect0.hex
+set_global_assignment -name SOURCE_FILE my_altpll.cmp
+set_global_assignment -name SOURCE_FILE image_frame_buffer.cmp
+set_global_assignment -name SOURCE_FILE iix2_buffer.cmp
+set_global_assignment -name SOURCE_FILE ii_buffer.cmp
+set_global_assignment -name SOURCE_FILE faceBox_buff.cmp
+set_global_assignment -name SOURCE_FILE altsqrt_varianceCalc.cmp
+set_global_assignment -name VERILOG_FILE weak_thresh_compare.v
+set_global_assignment -name VERILOG_FILE vga.v
+set_global_assignment -name VERILOG_FILE var_norm_calc.v
+set_global_assignment -name VERILOG_FILE top.v
+set_global_assignment -name VERILOG_FILE subwindow_top.v
+set_global_assignment -name VERILOG_FILE subwindow.v
+set_global_assignment -name VERILOG_FILE strong_thresh_compare.v
+set_global_assignment -name VERILOG_FILE strong_accumulator.v
+set_global_assignment -name VERILOG_FILE RGB2GREY.v
+set_global_assignment -name VERILOG_FILE RGB.v
+set_global_assignment -name VERILOG_FILE register_file2.v
+set_global_assignment -name VERILOG_FILE register_file.v
+set_global_assignment -name VERILOG_FILE rect_mux.v
+set_global_assignment -name VERILOG_FILE rect_calc.v
+set_global_assignment -name VERILOG_FILE ram.v
+set_global_assignment -name VERILOG_FILE pixel_offset.v
+set_global_assignment -name VERILOG_FILE parallel_dataPath_mux.v
+set_global_assignment -name VERILOG_FILE ov7670_registers.v
+set_global_assignment -name VERILOG_FILE ov7670_controller.v
+set_global_assignment -name VERILOG_FILE ov7670_capture.v
+set_global_assignment -name VERILOG_FILE my_altpll.v
+set_global_assignment -name VERILOG_FILE mux_std_logic_2_1.v
+set_global_assignment -name VERILOG_FILE mux_2_1.v
+set_global_assignment -name VERILOG_FILE left_right_tree_mux.v
+set_global_assignment -name VERILOG_FILE image_frame_buffer.v
+set_global_assignment -name VERILOG_FILE iix2_buffer.v
+set_global_assignment -name VERILOG_FILE iix2_address_decoder.v
+set_global_assignment -name VERILOG_FILE ii_gen.v
+set_global_assignment -name VERILOG_FILE ii_buffer.v
+set_global_assignment -name VERILOG_FILE ii_address_mux.v
+set_global_assignment -name VERILOG_FILE ii_address_decoder.v
+set_global_assignment -name VERILOG_FILE ii_address_calc.v
+set_global_assignment -name VERILOG_FILE i2c_sender.v
+set_global_assignment -name VERILOG_FILE feature_calc.v
+set_global_assignment -name VERILOG_FILE faceBox_buff.v
+set_global_assignment -name VERILOG_FILE faceBox.v
+set_global_assignment -name VERILOG_FILE demux_1_2.v
+set_global_assignment -name VERILOG_FILE debounce.v
+set_global_assignment -name VERILOG_FILE counter2.v
+set_global_assignment -name VERILOG_FILE counter.v
+set_global_assignment -name VERILOG_FILE altsqrt_varianceCalc.v
+set_global_assignment -name VERILOG_FILE Address_Generator.v
+set_location_assignment PIN_U2 -to LED_config_finished
+set_location_assignment PIN_AC4 -to LED_dll_locked
+set_location_assignment PIN_Y14 -to btn_capture
+set_location_assignment PIN_J1 -to clk_50
+set_location_assignment PIN_AE9 -to faceBox_done
+set_location_assignment PIN_AE15 -to ii_gen_done
+set_location_assignment PIN_Y15 -to measure_performance
+set_location_assignment PIN_AH12 -to ov7670_data[7]
+set_location_assignment PIN_AG12 -to ov7670_data[6]
+set_location_assignment PIN_AA14 -to ov7670_data[5]
+set_location_assignment PIN_AC15 -to ov7670_data[4]
+set_location_assignment PIN_Y12 -to ov7670_data[3]
+set_location_assignment PIN_AA12 -to ov7670_data[2]
+set_location_assignment PIN_AF15 -to ov7670_data[1]
+set_location_assignment PIN_AF14 -to ov7670_data[0]
+set_location_assignment PIN_AB14 -to ov7670_href
+set_location_assignment PIN_AH14 -to ov7670_pclk
+set_location_assignment PIN_G5 -to ov7670_pwdn
+set_location_assignment PIN_E22 -to ov7670_reset
+set_location_assignment PIN_AB2 -to ov7670_sioc
+set_location_assignment PIN_U1 -to ov7670_siod
+set_location_assignment PIN_AD14 -to ov7670_vsync
+set_location_assignment PIN_AH22 -to ov7670_xclk
+set_location_assignment PIN_AG14 -to slide_sw_RESET
+set_location_assignment PIN_J27 -to slide_sw_capture_mode
+set_location_assignment PIN_J28 -to slide_sw_resend_reg_values
+set_location_assignment PIN_P2 -to subwin_done
+set_location_assignment PIN_AE5 -to vga_CLK
+set_location_assignment PIN_AC10 -to vga_b[7]
+set_location_assignment PIN_AE14 -to vga_b[6]
+set_location_assignment PIN_AD15 -to vga_b[5]
+set_location_assignment PIN_AG11 -to vga_b[4]
+set_location_assignment PIN_AB10 -to vga_b[3]
+set_location_assignment PIN_AE13 -to vga_b[2]
+set_location_assignment PIN_AC14 -to vga_b[1]
+set_location_assignment PIN_AH11 -to vga_b[0]
+set_location_assignment PIN_AB13 -to vga_blank_N
+set_location_assignment PIN_AB15 -to vga_g[7]
+set_location_assignment PIN_AE16 -to vga_g[6]
+set_location_assignment PIN_AC11 -to vga_g[5]
+set_location_assignment PIN_AA16 -to vga_g[4]
+set_location_assignment PIN_AE17 -to vga_g[3]
+set_location_assignment PIN_AF16 -to vga_g[2]
+set_location_assignment PIN_AD11 -to vga_g[1]
+set_location_assignment PIN_AB16 -to vga_g[0]
+set_location_assignment PIN_AD12 -to vga_hsync
+set_location_assignment PIN_AA13 -to vga_r[7]
+set_location_assignment PIN_AC12 -to vga_r[6]
+set_location_assignment PIN_AH18 -to vga_r[5]
+set_location_assignment PIN_AG19 -to vga_r[4]
+set_location_assignment PIN_Y13 -to vga_r[3]
+set_location_assignment PIN_AB12 -to vga_r[2]
+set_location_assignment PIN_AG18 -to vga_r[1]
+set_location_assignment PIN_AH19 -to vga_r[0]
+set_location_assignment PIN_L23 -to vga_sync_N
+set_location_assignment PIN_AB11 -to vga_vsync
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

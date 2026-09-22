@@ -1,2 +1,1 @@
-# work in progress
-vhdl to verilog
+# Viola-Jones-Face-Detection-Algorithm-on-an-FPGA

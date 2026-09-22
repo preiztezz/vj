@@ -1,0 +1,190 @@
+Archive Project report for top
+Tue Sep 22 19:52:21 2026
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Sep 22 19:52:21 2026 ;
+; Revision Name          ; top                                   ;
+; Top-level Entity Name  ; top                                   ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory E:/fpga/project/designfile_testing/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/fpga/project/designfile_testing/vj.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'top.archive.rpt'
+Info (23030): Evaluation of Tcl script e:/quartus/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4858 megabytes
+    Info: Processing ended: Tue Sep 22 19:52:21 2026
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------+
+; Files Archived                             ;
++--------------------------------------------+
+; File Name                                  ;
++--------------------------------------------+
+; Address_Generator.v                        ;
+; altsqrt_varianceCalc.cmp                   ;
+; altsqrt_varianceCalc.v                     ;
+; counter.v                                  ;
+; counter2.v                                 ;
+; debounce.v                                 ;
+; demux_1_2.v                                ;
+; faceBox.v                                  ;
+; faceBox_buff.cmp                           ;
+; faceBox_buff.v                             ;
+; feature_calc.v                             ;
+; h_rect0.hex                                ;
+; h_rect0.mif                                ;
+; h_rect0.txt                                ;
+; h_rect1.hex                                ;
+; h_rect1.mif                                ;
+; h_rect1.txt                                ;
+; h_rect2.hex                                ;
+; h_rect2.mif                                ;
+; h_rect2.txt                                ;
+; i2c_sender.v                               ;
+; ii_address_calc.v                          ;
+; ii_address_decoder.v                       ;
+; ii_address_mux.v                           ;
+; ii_buffer.cmp                              ;
+; ii_buffer.v                                ;
+; ii_gen.v                                   ;
+; iix2_address_decoder.v                     ;
+; iix2_buffer.cmp                            ;
+; iix2_buffer.v                              ;
+; image_frame_buffer.cmp                     ;
+; image_frame_buffer.v                       ;
+; left_right_tree_mux.v                      ;
+; left_tree.hex                              ;
+; left_tree.mif                              ;
+; left_tree.txt                              ;
+; mux_2_1.v                                  ;
+; mux_std_logic_2_1.v                        ;
+; my_altpll.cmp                              ;
+; my_altpll.ppf                              ;
+; my_altpll.v                                ;
+; ov7670_capture.v                           ;
+; ov7670_controller.v                        ;
+; ov7670_registers.v                         ;
+; parallel_dataPath_mux.v                    ;
+; pixel_offset.v                             ;
+; ram.v                                      ;
+; README.md                                  ;
+; rect_calc.v                                ;
+; rect_mux.v                                 ;
+; register_file.v                            ;
+; register_file2.v                           ;
+; RGB.v                                      ;
+; RGB2GREY.v                                 ;
+; right_tree.hex                             ;
+; right_tree.mif                             ;
+; right_tree.txt                             ;
+; strong_accumulator.v                       ;
+; strong_thresh_compare.v                    ;
+; strongthresh.txt                           ;
+; subwindow.v                                ;
+; subwindow_top.v                            ;
+; test2-faceGrid96-320x240_greyImage_dec.hex ;
+; test2-faceGrid96-320x240_greyImage_dec.mif ;
+; top.qsf                                    ;
+; top.v                                      ;
+; top_assignment_defaults.qdf                ;
+; var_norm_calc.v                            ;
+; vga.v                                      ;
+; vj.qpf                                     ;
+; vj.tcl                                     ;
+; w_rect0.hex                                ;
+; w_rect0.mif                                ;
+; w_rect0.txt                                ;
+; w_rect1.hex                                ;
+; w_rect1.mif                                ;
+; w_rect1.txt                                ;
+; w_rect2.hex                                ;
+; w_rect2.mif                                ;
+; w_rect2.txt                                ;
+; weak_thresh_compare.v                      ;
+; weakStageNum.hex                           ;
+; weakStageNum.mif                           ;
+; weakstagenum.txt                           ;
+; weakThresh.hex                             ;
+; weakThresh.mif                             ;
+; weakthresh.txt                             ;
+; weight0.hex                                ;
+; weight0.mif                                ;
+; weight0.txt                                ;
+; weight1.hex                                ;
+; weight1.mif                                ;
+; weight1.txt                                ;
+; weight2.hex                                ;
+; weight2.mif                                ;
+; weight2.txt                                ;
+; x_rect0.hex                                ;
+; x_rect0.mif                                ;
+; x_rect0.txt                                ;
+; x_rect1.hex                                ;
+; x_rect1.mif                                ;
+; x_rect1.txt                                ;
+; x_rect2.hex                                ;
+; x_rect2.mif                                ;
+; x_rect2.txt                                ;
+; y_rect0.hex                                ;
+; y_rect0.mif                                ;
+; y_rect0.txt                                ;
+; y_rect1.hex                                ;
+; y_rect1.mif                                ;
+; y_rect1.txt                                ;
+; y_rect2.hex                                ;
+; y_rect2.mif                                ;
+; y_rect2.txt                                ;
++--------------------------------------------+
+
+
